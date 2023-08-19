@@ -11,3 +11,8 @@ ALTER TABLE multi_age_composite_dataset RENAME COLUMN 'School Name' TO School_na
 ALTER TABLE student_attendance_dataset RENAME COLUMN 'school_code' TO School_code;
 ALTER TABLE student_attendance_dataset RENAME COLUMN 'school_name' TO School_name;
 
+SELECT * FROM pragma_table_info('multi_age_composite_dataset');
+
+COMMIT;
+
+
